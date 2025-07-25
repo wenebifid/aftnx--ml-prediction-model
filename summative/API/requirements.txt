@@ -1,0 +1,7 @@
+fastapi==0.111.0 
+uvicorn==0.30.1 
+pydantic==2.8.2 
+pandas==2.2.2 # Match the version used during development
+numpy==1.26.4 # Match the version used during development
+scikit-learn==1.5.0 # Match the version used during model training
+joblib==1.4.2
