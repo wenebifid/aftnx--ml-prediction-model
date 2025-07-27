@@ -8,16 +8,14 @@ This project focuses on developing a robust predictive model for tourism arrival
 
 Our prediction API is publicly available and built with FastAPI. It provides a `/predict` endpoint that returns tourism arrival forecasts given input values.
 
-**Public API URL:** `https://aftnx-ml-prediction-model.onrender.com`
+[**Public API URL:**] (https://aftnx-ml-prediction-model.onrender.com)
 
 You can test the API and view its comprehensive documentation via Swagger UI by appending `/docs` to the public URL:
-**Swagger UI:** `https://aftnx-ml-prediction-model.onrender.com/docs`
+[**Swagger UI:** ](https://aftnx-ml-prediction-model.onrender.com/docs)
 
-## Video Demo
 
-A comprehensive video demonstration of the mobile application making predictions and Swagger UI tests of the API is available on YouTube. The demo is approximately 5 minutes long.
 
-**Watch the Demo Here:** `https://youtu.be/OHazz0XwgFE`
+**Watch the Demo Here:** [Youtube Demo](https://youtu.be/OHazz0XwgFE)
 
 ## How to Run the Mobile App
 
@@ -25,7 +23,7 @@ Follow these instructions to set up and run the AfroTour Nexus Predict mobile ap
 
 ### Prerequisites
 
-* **Flutter SDK:** Ensure you have Flutter installed (version compatible with Dart SDK `>=3.0.0 <4.0.0` as per `pubspec.yaml`).
+* **Flutter SDK:** Ensure you have Flutter installed 
 * **Android Studio / VS Code:** With Flutter and Dart plugins installed.
 * **Android Emulator or Physical Device:** Set up for debugging.
 
