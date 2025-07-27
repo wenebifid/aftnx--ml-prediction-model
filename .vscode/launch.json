@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "afrotour_nexus_predict",
+      "cwd": "summative\\FlutterApp\\afrotour_nexus_predict",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "afrotour_nexus_predict (profile mode)",
+      "cwd": "summative\\FlutterApp\\afrotour_nexus_predict",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "afrotour_nexus_predict (release mode)",
+      "cwd": "summative\\FlutterApp\\afrotour_nexus_predict",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}

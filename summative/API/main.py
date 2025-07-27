@@ -34,7 +34,7 @@ except FileNotFoundError:
     
 class PredictionInput(BaseModel):
     country: str = Field(..., example="Angola", description="Name of the country in Sub-Saharan Africa")
-    year: int = Field(..., ge=1999, le=2024, example=2020, description="Year of the data")
+    year: int = Field(..., ge=1999, le=2100, example=2020, description="Year of the data")
     tourism_receipts: float = Field(..., ge=0, example=150000000.0, description="Tourism receipts in local currency units (LCU)")
     tourism_exports: float = Field(..., ge=0, example=5.5, description="Tourism exports as a percentage of total exports")
     tourism_expenditures: float = Field(..., ge=0, example=3.0, description="Tourism expenditures as a percentage of total expenditures")
