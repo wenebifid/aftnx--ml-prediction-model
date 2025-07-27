@@ -194,7 +194,7 @@ class _PredictionPageState extends State<PredictionPage> {
                             validator: (value) {
                               if (value == null || value.isEmpty) return 'Year is required';
                               final year = int.tryParse(value);
-                              if (year == null || year < 1999 || year > 2024) return 'Enter a year between 1999 and 2024';
+                              if (year == null || year < 1999 || year > 2100) return 'Enter a year between 1999 and 2100';
                               return null;
                             },
                           ),
