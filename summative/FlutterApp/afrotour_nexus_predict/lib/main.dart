@@ -127,7 +127,7 @@ class _PredictionPageState extends State<PredictionPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Tourism Arrivals Prediction'),
+        title: const Text('Tourist Arrivals Prediction'),
         backgroundColor: Colors.transparent,
         elevation: 0,
         foregroundColor: Colors.white,
@@ -154,7 +154,7 @@ class _PredictionPageState extends State<PredictionPage> {
                 children: <Widget>[
                   const SizedBox(height: 20),
                   Text(
-                    'Predict Tourism Arrivals',
+                    'Predict Tourist Arrivals',
                     style: TextStyle(
                         fontSize: 28,
                         fontWeight: FontWeight.bold,
@@ -200,7 +200,7 @@ class _PredictionPageState extends State<PredictionPage> {
                           ),
                           _buildTextField(
                             controller: _tourismReceiptsController,
-                            labelText: 'Tourism Receipts (LCU)',
+                            labelText: 'Tourist Receipts (LCU)',
                             hintText: 'e.g., 150000000.0',
                             keyboardType: TextInputType.number,
                             icon: Icons.receipt_long,
@@ -208,7 +208,7 @@ class _PredictionPageState extends State<PredictionPage> {
                           ),
                           _buildTextField(
                             controller: _tourismExportsController,
-                            labelText: 'Tourism Exports (%)',
+                            labelText: 'Tourist Exports (%)',
                             hintText: 'e.g., 5.5',
                             keyboardType: TextInputType.number,
                             icon: Icons.trending_up,
@@ -216,7 +216,7 @@ class _PredictionPageState extends State<PredictionPage> {
                           ),
                           _buildTextField(
                             controller: _tourismExpendituresController,
-                            labelText: 'Tourism Expenditures (%)',
+                            labelText: 'Tourist Expenditures (%)',
                             hintText: 'e.g., 3.0',
                             keyboardType: TextInputType.number,
                             icon: Icons.trending_down,
@@ -272,7 +272,7 @@ class _PredictionPageState extends State<PredictionPage> {
                             elevation: 8,
                           ),
                           child: const Text(
-                            'Predict Tourism Arrivals',
+                            'Predict Tourist Arrivals',
                             style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                           ),
                         ),
