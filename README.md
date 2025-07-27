@@ -2,13 +2,13 @@
 
 ## Project Overview
 
-This project focuses on developing a robust predictive model for tourism arrivals in Sub-Saharan African countries. The mission is to use data  (economic indicators and tourism-specific)  to provide valuable insights. This model aims to empower policymakers and tourism stakeholders, facilitating better planning for infrastructure, marketing, and resource allocation to foster sustainable economic growth through tourism in the region.
+This project focuses on developing a robust predictive model for tourism arrivals in Sub-Saharan African countries.The mission is to use data  (economic indicators and tourism-specific)  to provide valuable insights. This model aims to empower policymakers and tourism stakeholders, facilitating better planning for infrastructure, marketing, and resource allocation to foster sustainable economic growth through tourism in the region.
 
 ## API Endpoint & Swagger UI
 
-Our prediction API is publicly available and built with FastAPI. It provides a `/predict` endpoint that returns tourism arrival forecasts given input values.
+My prediction API is publicly available and built with FastAPI. It provides a `/predict` endpoint that returns tourism arrival forecasts given input values.
 
-[**Public API URL:**] (https://aftnx-ml-prediction-model.onrender.com)
+[**Public API URL:**](https://aftnx-ml-prediction-model.onrender.com)
 
 You can test the API and view its comprehensive documentation via Swagger UI by appending `/docs` to the public URL:
 [**Swagger UI:** ](https://aftnx-ml-prediction-model.onrender.com/docs)
